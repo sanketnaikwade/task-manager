@@ -3,7 +3,7 @@ import axios from 'axios';
 import TaskForm from '../components/TaskForm';
 import TaskList from '../components/TaskList';
 
-const API_URL = 'http://3.95.213.143:5001/api/tasks';
+const API_URL = 'http://(localhost):5001/api/tasks';
 // const API_URL = 'http://localhost:5001/api/tasks';
 
 function TasksPage() {
